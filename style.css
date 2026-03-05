@@ -1,0 +1,46 @@
+/* Workflow 
+    Layout
+        Sections, grid, flex
+    Structure
+        align, spacing, responsiveness
+    Details
+        fonts, margins
+        color, borders, shadow, hover transitions
+
+*/
+
+/* Base styles */
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    * {
+        margin: 0;
+    }
+    html {
+        font-size: 100%;
+    }
+    body {
+        line-height: 1.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    img, picture, video, canvas, svg {
+        display: block;
+        max-width: 100%;
+    }
+    input, button, textarea, select {
+        font: inherit;
+    }
+    ul[role="list"], ol[role="list"] {
+        list-style: none;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+/* colors */
+    :root {
+        --color-1: black;
+        --color-2: white;
+    }
+/* end */
